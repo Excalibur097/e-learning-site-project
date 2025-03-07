@@ -16,29 +16,29 @@ const Footer = ()=>{
         </div>
         <div className="footer-con">
           <h3>Company</h3>
-          <a href="#">About Us</a>
-          <a href="#">Services</a>
-          <a href="#">Community</a>
-          <a href="#">Testimonilas</a>
+          <a>About Us</a>
+          <a>Services</a>
+          <a>Community</a>
+          <a>Testimonilas</a>
         </div>
         <div className="footer-con">
           <h3>Support</h3>
-          <a href="#">Help Center</a>
-          <a href="#">Tweet @ Us</a>
-          <a href="#">Webinars</a>
-          <a href="#">Facebook</a>
+          <a>Help Center</a>
+          <a>Tweet @ Us</a>
+          <a>Webinars</a>
+          <a>Facebook</a>
         </div>
         <div className="footer-con">
           <h3>Links</h3>
-          <a href="#">Courses</a>
-          <a href="#">Become Teacher</a>
-          <a href="#">Services</a>
-          <a href="#">All in One</a>
+          <a>Courses</a>
+          <a>Become Teacher</a>
+          <a>Services</a>
+          <a>All in One</a>
         </div>
         <div className="footer-con">
           <h3>Contact Us</h3>
-          <a href="#">+2348074663163</a>
-          <a href="#">raphachris144@gmail.com</a>
+          <a>+2348074663163</a>
+          <a>raphachris144@gmail.com</a>
         </div>
       </div>
       <div className="bottom-footer">
