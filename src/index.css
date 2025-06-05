@@ -187,6 +187,7 @@ ul{
   height: 350px;
   border-radius: 1000px;
   background-image:linear-gradient(to bottom right, var(--lavender-floral), var(--persian-pink));
+  position: absolute;
 }
 .hero-display img{
   position: absolute;
@@ -213,13 +214,14 @@ ul{
   font-size: 16px;
   color: var(--lavender-floral);
   font-weight: bold;
+  white-space: nowrap;
 }
 .display-banner p{
   font-size: 14px;
 }
 .bn1{
-  top: 100px;
-  left: -50px;
+  top: 200px;
+  right: -280px;
 }
 .bn2{
   bottom: 15px;
@@ -236,7 +238,7 @@ ul{
   padding-left: 100px;
   padding-right: 100px;
   position: relative;
-  margin-top: 60px;
+  margin-top: 200px;
   z-index: 99;
   margin-bottom: 50px;
 }
@@ -354,6 +356,7 @@ ul{
 .pop-body{
   display: flex;
   justify-content: space-between;
+  flex-wrap: wrap;
   padding-left: 100px;
   padding-right: 100px;
 }
@@ -541,7 +544,7 @@ ul{
   background-color: white;
   width: 300px;
   border-radius: 15px;
-  margin-bottom: 20px;
+  margin-bottom: 0px;
 }
 .student-card img{
   width: 50px;
@@ -675,215 +678,3 @@ ul{
   border-top: 1px solid rgba(255, 255, 255, 0.5);
 }
 
-@media (max-width:860px){
- 
-}
-
-@media (max-width:700px){
-
-  .nav-items{
-    padding-top: 20px;
-    padding-bottom: 10px;
-  }
-
-  .nav-log{
-    margin-left: 5px;
-   
-  }
-
-  .nav-options{
-    flex-direction: column;
-    position: absolute;
-    height: 100%;
-    width: 100%;
-    top: 0px;
-    padding-top: 60px;
-    background-color: rgba(225, 225, 225, 0.2);
-    backdrop-filter: blur(10px);
-    transform: translateY(-100%);
-    transition: all .45s;
-    z-index: 100;
-  }
-
-  .nav-options.open{
-    transform: translateY(0%); 
-  }
-
-  .nav-item{
-    margin-bottom: 50px;
-  }
-
- .outside-buttons{
-  display: none;
- }
-
- .inside-buttons{
-  display: block;
- }
-
-  .nav-toggle{
-    display: block;
-    z-index: 100;
-  }
-
-  .hero{
-    flex-direction: column;
-    padding-left: 10px;
-    padding-right: 10px;
-    justify-content: center;
-  }
-
-  .hero-text{
-    width: 100%;
-    margin-top: 5px;
-    text-align: center;
-    margin-bottom: 20px;
-  }
-
-  .hero-text h1{
-    font-size: 40px;
-  }
-
-  .hero-display{
-    margin: 0px;
-    width: 80%;
-  }
-
-  .hero-display img{
-    width: 100%;
-    top: 0px;
-    left: 0px;
-  }
-
-  .circle-background{
-    width: 250px;
-    height: 250px;
-  }
-
-  .display-banner{
-    padding: 6px;
-  }
-
-  .display-banner h4{
-    font-size: 14;
-  }
-  .display-banner h5{
-    font-size: 12;
-  }
-  .display-banner p{
-    font-size: 10;
-  }
-
-  .bn1{
-    left: -30px;
-  }
-
-  .logo-belt{
-    padding-left: 0px;
-    padding-right: 0px;
-    margin-top: -6px;
-  }
-
-  .belt-body{
-    overflow-x: auto;
-    width: 100%;
-  }
-
-  .belt-body img{
-    margin-right: 30px;
-    width: 80px;
-  }
-
-  .about-courses{
-    padding-left: 10px;
-    padding-right: 10px;
-  }
-
-  .course-search input{
-    width: 70%;
-  }
-
-  .about-courses .body{
-    flex-direction: column;
-    padding-left: 0px;
-    padding-right: 0px;
-    align-items: center;
-  }
-
-  .body .about-img{
-    width: 80%;
-    margin-bottom: 20px;
-  }
-
-  .body .about-desc{
-    width: 95%;
-  }
-
-  .about-desc p{
-    width: 96%;
-  }
-  .popular-courses{
-    padding-left: 5px;
-    padding-right: 5px;
-  }
-  .pop-header{
-    padding-left: 10px;
-    padding-right: 10px;
-  }
-  .pop-body{
-    flex-direction: column;
-    padding-left: 0px;
-    padding-right: 0px;
-    align-items: center;
-    padding-left: 10px;
-    padding-right: 10px;
-  }
-  .course-card{
-    width: 80%;
-    margin-bottom: 10px;
-  }
-  
-  .teacher-advert{
-    flex-direction: column;
-    align-items: center;
-    padding-left: 5px;
-    padding-right: 5px;
-  }
-  .teacher-advert li{
-    font-size: 13px;
-  }
-  .text-notice{
-    width: 380px;
-    margin-bottom: 20px;
-  }
-  .notice-img{
-    width: 90%;
-  }
-  
-  .testimonial{
-    padding-left: 5px;
-    padding-right:5px;
-  }
-  .testimonial .header p{
-    padding-left: 5px;
-    padding-right: 5px;
-  }
-  .students{
-    flex-direction: column;
-    align-items: center;
-  }
-  .contact{
-    padding-left: 10px;
-    padding-right: 10px;
-    border-top-left-radius: 40px;
-    border-bottom-right-radius: 40px;
-  }
-  .contact input{
-    margin-bottom: 30px;
-  }
-
-  .footer{
-    padding-left: 10px;
-    padding-right: 10px;
-  }
-}
