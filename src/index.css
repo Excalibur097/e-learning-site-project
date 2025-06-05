@@ -678,3 +678,298 @@ ul{
   border-top: 1px solid rgba(255, 255, 255, 0.5);
 }
 
+@media (max-width:860px){
+  .nav-items{
+    padding-top: 20px;
+    padding-bottom: 10px;
+  }
+  
+  .nav-log{
+    margin-left: 5px;
+     
+  }
+  
+  .nav-options{
+    flex-direction: column;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0px;
+    padding-top: 60px;
+    background-color: rgba(225, 225, 225, 0.2);
+    backdrop-filter: blur(10px);
+    transform: translateY(-100%);
+    transition: all .45s;
+    z-index: 100;
+  }
+  
+  .nav-options.open{
+    transform: translateY(0%); 
+  }
+  
+  .nav-item{
+    margin-bottom: 50px;
+  }
+  
+  .outside-buttons{
+    display: none;
+  }
+  
+  .inside-buttons{
+    display: block;
+   }
+  
+  .nav-toggle{
+    display: block;
+    z-index: 100;
+  }
+  
+  .hero{
+    flex-direction: column;
+    padding-right: 30px;
+    padding-left: 30px;
+    margin-top: 40px;
+  }
+  .hero-text{
+    width: 100%;
+    margin-top: 5px;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  .hero-display{
+    margin: 0px;
+    width: 80%;
+  }
+  
+  .hero-display img{
+    width: 100%;
+    top: 0px;
+    left: 0px;
+  }
+
+  .circle-background{
+    top: 20px;
+    left: 150px;
+  }
+
+  .bn1{
+    top: 330px;
+    left: 100px;
+    width: 120px;
+  }
+  .bn2{
+    top: 100px;
+    left: 20px;
+    height: 70px;
+  }   
+
+
+  .logo-belt{
+    padding-left: 0px;
+    padding-right: 0px;
+    margin-top: 550px;
+  }
+    
+  .belt-body{
+    overflow-x: auto;
+    width: 100%;
+  }
+    
+  .belt-body img{
+    margin-right: 30px;
+    width: 80px;
+  }
+
+  .about-courses .body{
+    flex-direction: column;
+    padding-left: 0px;
+    padding-right: 0px;
+    align-items: center;
+  }
+  
+  .body .about-img{
+    width: 80%;
+    margin-bottom: 20px;
+  }
+
+  .body .about-desc{
+    width: 95%;
+  }
+  .about-desc p{
+    width: 96%;
+  }
+
+  .popular-courses{
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .pop-header{
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  .course-card{
+    width: 45%;
+    margin-bottom: 20px;
+  }
+
+  .teacher-advert{
+    flex-direction: column;
+    align-items: center;
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+  .text-notice{
+    width: 550px;
+    margin-bottom: 20px;
+  }
+
+  .testimonial{
+    padding-left: 70px;
+    padding-right: 70px;
+  }
+  .testimonial .header p{
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .students{
+    justify-content: start;
+    gap: 50px;
+  }
+
+  .contact{
+    padding-left: 60px;
+    padding-right: 60px;
+  }
+
+  .footer{
+    padding-left: 60px;
+    padding-right: 60px;
+  }
+   
+  }
+
+
+@media (max-width:700px){
+  
+
+    .hero-text h1{
+      font-size: 40px;
+    }
+  
+    .hero-display{
+      margin: 0px;
+      width: 80%;
+    }
+  
+    .circle-background{
+      width: 250px;
+      height: 250px;
+      top: 0px;
+      left: 20px;
+    }
+  
+    .display-banner{
+      padding: 6px;
+    }
+  
+    .display-banner h4{
+      font-size: 14;
+    }
+    .display-banner h5{
+      font-size: 12;
+    }
+    .display-banner p{
+      font-size: 10;
+    }
+  
+    .bn1{
+      height: 60px;
+      left: -30px;
+      top: 150px;
+    }
+
+    .bn3{
+      top: 20px;
+    }
+
+    .bn2{
+      top: 30px;
+      left: -50px;
+    }
+  
+    .logo-belt{
+        margin-top: 240px;
+    }
+  
+
+    .about-courses{
+      padding-left: 10px;
+      padding-right: 10px;
+    }
+  
+    .course-search input{
+      width: 70%;
+    }
+  
+  
+    .popular-courses{
+      padding-left: 5px;
+      padding-right: 5px;
+    }
+    .pop-header{
+      padding-left: 10px;
+      padding-right: 10px;
+    }
+    .pop-body{
+      flex-direction: column;
+      padding-left: 0px;
+      padding-right: 0px;
+      align-items: center;
+      padding-left: 10px;
+      padding-right: 10px;
+    }
+    .course-card{
+      width: 80%;
+      margin-bottom: 10px;
+    }
+    
+  
+    .teacher-advert li{
+      font-size: 13px;
+    }
+    .text-notice{
+      width: 380px;
+      margin-bottom: 20px;
+    }
+    .notice-img{
+      width: 90%;
+    }
+    
+    .testimonial{
+      padding-left: 5px;
+      padding-right:5px;
+    }
+    .testimonial .header p{
+      padding-left: 5px;
+      padding-right: 5px;
+    }
+    .students{
+      flex-direction: column;
+      align-items: center;
+    }
+    .contact{
+      padding-left: 10px;
+      padding-right: 10px;
+      border-top-left-radius: 40px;
+      border-bottom-right-radius: 40px;
+    }
+    .contact input{
+      margin-bottom: 30px;
+    }
+  
+    .footer{
+      padding-left: 10px;
+      padding-right: 10px;
+    }
+  }
+
